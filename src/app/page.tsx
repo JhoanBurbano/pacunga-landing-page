@@ -1,3 +1,5 @@
+import Divider from '@/components/atoms/Divider'
+import HoneyScheme from '@/components/molecules/HoneyScheme'
 import Image from 'next/image'
 import { FaWhatsapp } from 'react-icons/fa'
 
@@ -29,6 +31,20 @@ export default function Home() {
             de abejas africanizadas que recolectan néctar de flores silvestres, sin intervención química ni
             alimentaciones artificiales.
           </p>
+        </article>
+        <article className="flex-1 text-white text-center mx-auto flex flex-col gap-4 w-full bg-zinc-950 min-h-[400px] relative p-4 pt-[116px]">
+          <Divider className="text-bone absolute top-0 left-0 h-[100px]" />
+          <h2 className="text-3xl text-amber-500 font-bold">Propiedades de Nuestra Miel 🍯</h2>
+          <h3 className="italic text-sm">
+            Descubre los beneficios únicos de la Miel de Abejas, una fuente de energía y nutrición natural.
+          </h3>
+          <HoneyScheme />
+          <p className="max-w-[750px] mx-auto text-bone">
+            Nuestra miel es una fuente de energía inmediata y saludable, ideal para deportistas, niños, y para
+            endulzar tus momentos especiales de forma natural. Al no tener grasas ni colesterol, es perfecta
+            para una alimentación balanceada. Call to Action: Añade un botón bajo
+          </p>
+          <p className="text-amber-500">Compra ahora y disfruta de sus beneficios</p>
         </article>
       </section>
       <footer className="bg-zinc-950 min-h-[200px] w-full flex p-4 text-white">
