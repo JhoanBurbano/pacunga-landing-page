@@ -13,7 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className="bg-gradient-to-tr from-zinc-950 to-zinc-800 from-15% min-h-screen">{children}</body>
+      <body className="bg-gradient-to-tr from-zinc-950 to-zinc-800 from-15% min-h-screen flex flex-col">
+        {children}
+      </body>
     </html>
   )
 }
