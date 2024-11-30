@@ -19,22 +19,22 @@ export default function Home() {
       <section className="bg-bone min-h-[700px] flex flex-1 flex-col">
         <article className="text-black text-center min-w-[250px] max-w-[550] w-[50%] mx-auto flex flex-col gap-4">
           <span>
-            <h2 className="text-3xl font-bold text-amber-900">Miel de Abejas</h2>
-            <h3 className="text-xl italic">100% Pura, Artesanal y Sostenible</h3>
+            <h2 className="text-xl sm:text-3xl font-bold text-amber-900">Miel de Abejas</h2>
+            <h3 className="text-md sm:text-xl italic">100% Pura, Artesanal y Sostenible</h3>
           </span>
           <Image src="/honey.png" alt="Tarro de miel" width={200} height={200} className="m-auto" />
-          <p className="text-sm">
+          <p className="text-xs sm:text-sm">
             La Miel de Abejas es un producto puro, artesanal y único, cosechado directamente en la Finca
-            Apícola Pacunga, ubicada en el corazón del Cauca, Colombia. Esta miel es el resultado del trabajo
-            armonioso de abejas africanizadas que recolectan néctar de flores silvestres, sin intervención
-            química ni alimentaciones artificiales.
+            Apícola Pacunga, ubicada en el corazón del Cauca. Esta miel es el resultado del trabajo armonioso
+            de abejas africanizadas que recolectan néctar de flores silvestres, sin intervención química ni
+            alimentaciones artificiales.
           </p>
         </article>
       </section>
       <footer className="bg-zinc-950 min-h-[200px] w-full flex p-4 text-white">
         <article className="text-center min-w-[250px] max-w-[550] w-[50%] m-auto">
-          <Image src="/logo.webp" alt="Logo de la empresa" width={100} height={100} className="m-auto" />
-          <h1 className="text-xl font-bold text-amber-900">FINCA LA PACUNGA</h1>
+          <Image src="/logo.webp" alt="Logo de la empresa" width={120} height={120} className="m-auto" />
+          <h1 className="text-lg sm:text-xl font-bold">FINCA LA PACUNGA</h1>
           <p className="text-xs">
             {/* Copyright */}
             All rights reserved. Finca La Pacunga 2025. &copy;
