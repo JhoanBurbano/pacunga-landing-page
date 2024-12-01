@@ -19,12 +19,12 @@ export default function Home() {
         />
       </section>
       <section className="bg-bone min-h-[700px] flex flex-1 flex-col">
-        <article className="text-black text-center min-w-[250px] max-w-[550] w-[50%] mx-auto flex flex-col gap-4">
+        <article className="text-black text-center min-w-[250px] max-w-[550] w-[50%] mx-auto flex flex-col gap-4 min-h-[600px] h-full justify-center">
           <span>
             <h2 className="text-xl sm:text-3xl font-bold text-amber-900">Miel de Abejas</h2>
             <h3 className="text-md sm:text-xl italic">100% Pura, Artesanal y Sostenible</h3>
           </span>
-          <Image src="/honey.png" alt="Tarro de miel" width={200} height={200} className="m-auto" />
+          <Image src="/honey.png" alt="Tarro de miel" width={200} height={200} className="mx-auto" />
           <p className="text-xs sm:text-sm">
             La Miel de Abejas es un producto puro, artesanal y único, cosechado directamente en la Finca
             Apícola Pacunga, ubicada en el corazón del Cauca. Esta miel es el resultado del trabajo armonioso
@@ -32,7 +32,7 @@ export default function Home() {
             alimentaciones artificiales.
           </p>
         </article>
-        <article className="flex-1 text-white text-center mx-auto flex flex-col gap-4 w-full bg-zinc-950 min-h-[400px] relative p-4 pt-[116px]">
+        <article className=" text-white text-center mx-auto flex flex-col gap-4 w-full bg-zinc-950 min-h-[800px] relative p-4 pt-[126px] h-full justify-center">
           <Divider className="text-bone absolute top-0 left-0 h-[100px]" />
           <h2 className="text-3xl text-amber-500 font-bold">Propiedades de Nuestra Miel 🍯</h2>
           <h3 className="italic text-sm">
@@ -42,10 +42,23 @@ export default function Home() {
           <p className="max-w-[750px] mx-auto text-bone">
             Nuestra miel es una fuente de energía inmediata y saludable, ideal para deportistas, niños, y para
             endulzar tus momentos especiales de forma natural. Al no tener grasas ni colesterol, es perfecta
-            para una alimentación balanceada. Call to Action: Añade un botón bajo
+            para una alimentación balanceada.
           </p>
-          <p className="text-amber-500">Compra ahora y disfruta de sus beneficios</p>
+          <p className="bg-amber-500 text-black font-bold py-4">Compra ahora y disfruta de sus beneficios</p>
         </article>
+        {/* <article className="text-black text-center min-w-[250px] max-w-[550] w-[50%] mx-auto flex flex-col gap-4 min-h-[600px] h-full justify-center">
+          <span>
+            <h2 className="text-xl sm:text-3xl font-bold text-amber-900">¿Quienes sómos?</h2>
+            <h3 className="text-md sm:text-xl italic">100% Pura, Artesanal y Sostenible</h3>
+          </span>
+          <Image src="/honey.png" alt="Tarro de miel" width={200} height={200} className="mx-auto" />
+          <p className="text-xs sm:text-sm">
+            La Miel de Abejas es un producto puro, artesanal y único, cosechado directamente en la Finca
+            Apícola Pacunga, ubicada en el corazón del Cauca. Esta miel es el resultado del trabajo armonioso
+            de abejas africanizadas que recolectan néctar de flores silvestres, sin intervención química ni
+            alimentaciones artificiales.
+          </p>
+        </article> */}
       </section>
       <footer className="bg-zinc-950 min-h-[200px] w-full flex p-4 text-white">
         <article className="text-center min-w-[250px] max-w-[550] w-[50%] m-auto">
