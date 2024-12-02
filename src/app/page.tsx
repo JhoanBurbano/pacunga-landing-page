@@ -54,7 +54,7 @@ export default function Home() {
               <h2 className="text-xl sm:text-3xl font-bold text-amber-900">Contáctanos</h2>
               <h3 className="text-md sm:text-xl italic">Aquí está nuestra informacion de contacto</h3>
             </span>
-            <main className="flex gap-4">
+            <main className="flex flex-col gap-4 md:flex-row">
               <Image
                 src="/image-farm.png"
                 alt="Tarro de miel"
@@ -63,8 +63,7 @@ export default function Home() {
                 objectFit="contain"
                 className="mx-auto"
               />
-              {/* Una tabla con datos de contacto coin grid*/}
-              <section className="grid grid-cols-1 gap-4 min-w-[300px] text-left  bg-black rounded-xl text-white p-4 ">
+              <section className="grid grid-cols-1 gap-4 min-w-[300px] text-left  bg-black rounded-xl text-white p-4 w-[300px] mx-auto md:w-min  ">
                 <article>
                   <h3 className="text-lg font-bold text-yellow-500">Dirección</h3>
                   <p className="text-xs text-orange-300">Finca La Pacunga, Sucre, Cauca, Colombia</p>
